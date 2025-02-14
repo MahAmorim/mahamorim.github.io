@@ -4,6 +4,8 @@
 
 # 📌 Definição do tema (Chirpy)
 theme: jekyll-theme-chirpy
+remote_theme: "cotes2020/jekyll-theme-chirpy"
+
 
 # 📌 Idioma padrão do site
 lang: pt-BR  # O site inicia em português e terá switch para inglês
