@@ -66,7 +66,7 @@ theme_mode: "light"  # Opções: "light", "dark" ou deixar vazio para seguir o s
 
 cdn: ""
 avatar: "/assets/img/marcela.jpg"
-social_preview_image: "/assets/img/social-preview.jpg"
+social_preview_image: "/assets/img/marcela.jpg" #"/assets/img/social-preview.jpg"
 
 
 # ===========================
