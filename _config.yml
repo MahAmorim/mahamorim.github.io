@@ -1,0 +1,121 @@
+# ===========================
+# 🔹 CONFIGURAÇÃO DO SITE 🔹
+# ===========================
+
+# 📌 Definição do tema (Chirpy)
+theme: jekyll-theme-chirpy
+
+# 📌 Idioma padrão do site
+lang: pt-BR  # O site inicia em português e terá switch para inglês
+
+# 📌 Fuso horário correto para o Brasil
+timezone: America/Sao_Paulo
+
+# 📌 URL do site para SEO e GitHub Pages
+url: "https://mahamorim.github.io"
+baseurl: ""  # Mantenha vazio para evitar problemas de roteamento
+
+
+# ===========================
+# 🔹 SEO & REDES SOCIAIS 🔹
+# ===========================
+
+title: "Marcela Amorim"
+tagline: "QA | Community Manager | DevRel"
+description: >-  
+  Portfólio profissional de Marcela Amorim, destacando projetos, iniciativas e artigos sobre QA, DevRel e tecnologia.
+
+seo:
+  type: "Person"
+  name: "Marcela Amorim"
+  description: "QA | Community Manager | DevRel"
+  twitter:
+    username: "qa_marcela"  # Sem o @
+    card: "summary_large_image"
+  image: "/assets/img/social-preview.jpg"
+  same_as:
+    - "https://twitter.com/qa_marcela"
+    - "https://github.com/MahAmorim"
+    - "https://www.linkedin.com/in/amorim-marcela/"
+    - "https://medium.com/@marcela.gomes"
+    - "https://dev.to/mahamorim"
+    - "https://www.instagram.com/qa.marcelaamorim"
+
+social:
+  name: "Marcela Amorim"
+  email: "amorimmjg@gmail.com"
+
+
+# ===========================
+# 🔹 VERIFICAÇÃO DE PROPRIEDADE (DESATIVADO) 🔹
+# ===========================
+# webmaster_verifications:
+#   google: # fill in your Google verification code
+#   bing: # fill in your Bing verification code
+#   alexa: # fill in your Alexa verification code
+#   yandex: # fill in your Yandex verification code
+#   baidu: # fill in your Baidu verification code
+#   facebook: # fill in your Facebook verification code
+
+
+# ===========================
+# 🔹 CONFIGURAÇÃO DE APARÊNCIA 🔹
+# ===========================
+
+theme_mode: "light"  # Opções: "light", "dark" ou deixar vazio para seguir o sistema
+
+cdn: ""
+avatar: "/assets/img/marcela.jpg"
+social_preview_image: "/assets/img/social-preview.jpg"
+
+
+# ===========================
+# 🔹 COMENTÁRIOS (DESATIVADOS) 🔹
+# ===========================
+# Para ativar, escolha entre "giscus", "disqus" ou "utterances".
+# comments:
+#   provider: "giscus"
+
+
+# ===========================
+# 🔹 PWA (Progressive Web App) 🔹
+# ===========================
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+      - "/admin"
+  manifest:
+    name: "Marcela Amorim - Portfólio"
+    short_name: "Marcela Amorim"
+    theme_color: "#ffffff"
+    background_color: "#ffffff"
+
+
+# ===========================
+# 🔹 EXCLUSÕES E COMPRESSÃO 🔹
+# ===========================
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - rollup.config.js
+  - "package*.json"
+  - Gemfile
+  - .gitignore
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
