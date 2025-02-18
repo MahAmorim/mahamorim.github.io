@@ -4,8 +4,6 @@
 
 # 📌 Definição do tema (Chirpy)
 theme: jekyll-theme-chirpy
-remote_theme: "cotes2020/jekyll-theme-chirpy"
-
 
 # 📌 Idioma padrão do site
 lang: pt-BR  # O site inicia em português e terá switch para inglês
@@ -21,7 +19,7 @@ baseurl: ""  # Mantenha vazio para evitar problemas de roteamento
 # ===========================
 # 🔹 SEO & REDES SOCIAIS 🔹
 # ===========================
-
+layout: home
 title: "Marcela Amorim"
 tagline: "QA | Community Manager | DevRel"
 description: >-  
@@ -66,7 +64,6 @@ social:
 
 theme_mode: "light"  # Opções: "light", "dark" ou deixar vazio para seguir o sistema
 
-cdn: ""
 avatar: "/assets/img/marcela.jpg"
 social_preview_image: "/assets/img/marcela.jpg" #"/assets/img/social-preview.jpg"
 
